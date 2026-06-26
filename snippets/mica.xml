@@ -3,13 +3,13 @@
 
   <remote name="mica"
           fetch="https://github.com/Project-Mica/"
-          revision="16-qpr2"  />
+          revision="17-qpr0"  />
 
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
   <remote  name="codeberg"
-           revision="16-qpr2"
+           revision="17-qpr0"
            fetch="https://codeberg.org" />
 
   <!-- General Repos -->
@@ -68,7 +68,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mica" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="mica" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="mica" />
-  <project path="packages/modules/Connectivity" name="micaos/packages_modules_Connectivity" remote="codeberg" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="mica" />
 
   <!-- System Repos -->
   <project path="system/bpf" name="system_bpf" remote="mica" />
