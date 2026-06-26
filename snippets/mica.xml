@@ -46,8 +46,6 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="mica" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="mica" />
   <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="mica" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="mica" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" groups="qcom,lahaina" remote="mica" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="mica" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -81,5 +79,4 @@
   <!-- Vendor Repos -->
   <project path="vendor/mica" name="vendor_mica" remote="mica" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="mica" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="mica" />
 </manifest>
