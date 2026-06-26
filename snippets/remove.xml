@@ -10,7 +10,6 @@
   <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/sample" />
 
   <!-- build repos -->
   <remove-project name="platform/build" />
@@ -37,7 +36,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <remove-project name="platform/packages/modules/UprobeStats" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bpf" />
